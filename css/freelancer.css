@@ -58,12 +58,12 @@ hr.star-primary:after {
 }
 
 hr.star-light {
-    border-color: #fff;
+    border-color: #000;
 }
 
 hr.star-light:after {
-    color: #fff;
-    background-color: #B82560;
+    color: #000;
+    background-color: #E0FFC2;
 }
 
 hr.star-primary {
@@ -82,7 +82,7 @@ hr.star-primary:after {
 header {
     text-align: center;
     color: #fff;
-    background: #B82560;
+    background: #E0FFC2;
 }
 
 header .container {
@@ -97,10 +97,16 @@ header img {
 
 header .intro-text .name {
     display: block;
-    text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 2em;
-    font-weight: 700;
+    font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 200;
+     font-size: 32px;
+     color: #000000;
+}
+section .row .name{
+    display: block;
+    font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 200;
+     font-size: 32px;   
 }
 
 header .intro-text .skills {
@@ -115,7 +121,7 @@ header .intro-text .skills {
     }
 
     header .intro-text .name {
-        font-size: 4.75em;
+        font-size: 32px;
     }
 
     header .intro-text .skills {
@@ -456,4 +462,13 @@ footer .footer-below {
 .portfolio-modal .modal-backdrop {
     display: none;
     opacity: 0;
+}
+.portfolio .container .row .col-lg-12 .text-center{
+    font-size: 18px;
+    font-weight: normal;
+}
+
+
+.portfolio .container .col-lg-6 .portfolio-item .description p{
+    font-size: 15px;
 }
